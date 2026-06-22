@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background rounded square gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4287dd" />
+      <stop offset="100%" stop-color="#093466" />
+    </linearGradient>
+
+    <!-- Top Face Gradient -->
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5599e0" />
+      <stop offset="100%" stop-color="#2264ad" />
+    </linearGradient>
+    
+    <!-- Left Face Gradient -->
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123b6b" />
+      <stop offset="100%" stop-color="#081e36" />
+    </linearGradient>
+
+    <!-- Right Face Gradient -->
+    <linearGradient id="rightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e315b" />
+      <stop offset="100%" stop-color="#06162b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rounded Square -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bgGrad)" />
+
+  <!-- 3D Isometric Cube Group -->
+  <g>
+    <!-- Left Face -->
+    <polygon points="136,160.7 136,300.7 256,370 256,230" fill="url(#leftGrad)" />
+    
+    <!-- Right Face -->
+    <polygon points="256,230 256,370 376,300.7 376,160.7" fill="url(#rightGrad)" />
+    
+    <!-- Top Face -->
+    <polygon points="256,91.4 136,160.7 256,230 376,160.7" fill="url(#topGrad)" />
+
+    <!-- Top Grid lines (2x2 grid) -->
+    <line x1="196" y1="126.05" x2="316" y2="195.35" stroke="#ffffff" stroke-width="3" stroke-opacity="0.55" />
+    <line x1="196" y1="195.35" x2="316" y2="126.05" stroke="#ffffff" stroke-width="3" stroke-opacity="0.55" />
+
+    <!-- Left Face vertical divisions (4 columns) -->
+    <line x1="166" y1="178" x2="166" y2="318" stroke="#ffffff" stroke-width="2" stroke-opacity="0.25" />
+    <line x1="196" y1="195.35" x2="196" y2="335.35" stroke="#ffffff" stroke-width="2" stroke-opacity="0.25" />
+    <line x1="226" y1="212.7" x2="226" y2="352.7" stroke="#ffffff" stroke-width="2" stroke-opacity="0.25" />
+
+    <!-- Right Face vertical divisions (4 columns) -->
+    <line x1="286" y1="212.7" x2="286" y2="352.7" stroke="#ffffff" stroke-width="2" stroke-opacity="0.22" />
+    <line x1="316" y1="195.35" x2="316" y2="335.35" stroke="#ffffff" stroke-width="2" stroke-opacity="0.22" />
+    <line x1="346" y1="178" x2="346" y2="318" stroke="#ffffff" stroke-width="2" stroke-opacity="0.22" />
+  </g>
+
+  <!-- "RUKN" Text -->
+  <text x="256" y="425" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="64" fill="#ffffff" letter-spacing="1.5">RUKN</text>
+
+  <!-- "BIM" Text -->
+  <text x="256" y="472" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="26" fill="#ffffff" fill-opacity="0.85" letter-spacing="11">BIM</text>
+</svg>
