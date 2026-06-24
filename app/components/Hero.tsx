@@ -106,7 +106,7 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 -m-12 rounded-full bg-[#2563eb]/20 blur-3xl" />
             <Image
-              src="/icon.svg"
+              src="/icon.svg?v=2"
               alt="RUKN BIM API"
               width={512}
               height={512}
