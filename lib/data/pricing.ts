@@ -26,8 +26,8 @@ export const pricingTiers: PricingTier[] = [
     description: "Full suite of premium add-ins for power users.",
     features: [
       "All Free tools included",
-      "KH Element Navigator",
-      "QIC 5D BOQ Manager",
+      "RUKNBIM Smart Select",
+      "RUKN 5D BOQ Manager",
       "Priority email support",
       "All updates & new features",
       "License for 2 devices",

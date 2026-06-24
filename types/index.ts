@@ -15,6 +15,14 @@ export interface Product {
   downloadUrl: string;
   docsUrl: string;
   icon: string;
+  learnMore?: {
+    tagline?: string;
+    sections: {
+      heading: string;
+      body?: string;
+      items?: { label: string; description?: string; icon?: string }[];
+    }[];
+  };
 }
 
 export interface PricingTier {

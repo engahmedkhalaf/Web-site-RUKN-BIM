@@ -50,18 +50,18 @@ export const products: Product[] = [
         ],
       },
     ],
-    downloadUrl: "/downloads",
+    downloadUrl: "https://github.com/engahmedkhalaf/RUKNBIM.SmartSelect.Setup",
     docsUrl: "/docs",
     icon: "Compass",
   },
   {
-    id: "qic-5d-boq-manager",
-    slug: "qic-5d-boq-manager",
-    name: "QIC 5D BOQ Manager",
+    id: "rukn-5d-boq-manager",
+    slug: "rukn-5d-boq-manager",
+    name: "RUKN 5D BOQ Manager",
     shortDescription:
       "Automated Bill of Quantities generation and 5D BIM cost management for Revit.",
     description:
-      "QIC 5D BOQ Manager transforms your Revit models into comprehensive Bills of Quantities with automated cost estimation. Map Revit categories to BOQ codes, generate detailed quantity takeoffs, and export professional reports — all within the Revit environment.",
+      "RUKN 5D BOQ Manager transforms your Revit models into comprehensive Bills of Quantities with automated cost estimation. Map Revit categories to BOQ codes, generate detailed quantity takeoffs, and export professional reports — all within the Revit environment.",
     category: "revit",
     tier: "premium",
     price: "$199",
@@ -146,6 +146,82 @@ export const products: Product[] = [
     downloadUrl: "/downloads",
     docsUrl: "/docs",
     icon: "MousePointerClick",
+    learnMore: {
+      tagline:
+        "An Autodesk Navisworks Manage plugin designed for fast selection, isolation, section-boxing, and tracking of elements by their Revit IDs.",
+      sections: [
+        {
+          heading: "Key Features",
+          items: [
+            {
+              label: "Advanced Element Selection",
+              description:
+                "Input, select, and highlight Revit Element IDs inside Navisworks models.",
+            },
+            {
+              label: "Bulk Import & Export",
+              description:
+                "Import Excel/CSV files containing lists of Element IDs, and export verification reports detailing which elements were found or missing.",
+            },
+            {
+              label: "Zoom to Selection",
+              description: "Instantly center and zoom on the active selection.",
+              icon: "🔵",
+            },
+            {
+              label: "Isolate Selection",
+              description:
+                "Fast isolation (hides non-ancestor siblings and sibling subtrees).",
+              icon: "🟢",
+            },
+            {
+              label: "Clear Isolation",
+              description: "Restore model visibility.",
+              icon: "🟢",
+            },
+            {
+              label: "Auto Section Box",
+              description:
+                "Automatically fit a section box around selected items.",
+              icon: "🟠",
+            },
+            {
+              label: "Clear Section Box",
+              description: "Clear active clipping boxes.",
+              icon: "🔴",
+            },
+            {
+              label: "Save Viewpoint",
+              description: "Save the current viewpoint.",
+              icon: "🟡",
+            },
+            {
+              label: "Info",
+              description: "Opens the developer & support card.",
+              icon: "🟣",
+            },
+            {
+              label: "Live Update Checker",
+              description:
+                "The Info window automatically checks the GitHub repository in the background and notifies the operator if a newer version is available.",
+            },
+            {
+              label: "Aesthetic WPF UI",
+              description:
+                "Visual Studio styled dark dialogs with premium random color schemes generated on load.",
+            },
+          ],
+        },
+        {
+          heading: "Build & Setup",
+          body: "Requirements: .NET Framework 4.8, Navisworks Manage 2022–2026. Open the project in Visual Studio, build the solution, and the post-build script automatically registers the bundle to %AppData%\\Autodesk\\ApplicationPlugins\\RUKNBIM.ElementID.bundle\\. Ensure Autodesk Navisworks is closed before building to avoid file-lock errors during copy.",
+        },
+        {
+          heading: "Creating the Installer (.exe)",
+          body: "The project contains an Inno Setup script (setup.iss) to compile a single-file executable installer. Install Inno Setup Compiler, open setup.iss, press F9 to build — the generated installer Rukn.ElementID.Setup.exe will be saved under the Output/ directory, ready to share.",
+        },
+      ],
+    },
   },
   {
     id: "rukn-exporter",

@@ -9,7 +9,7 @@ const COLUMNS = [
     title: "Products",
     links: [
       "RUKNBIM Smart Select",
-      "QIC 5D BOQ Manager",
+      "RUKN 5D BOQ Manager",
       "RUKNBIM.ElementNavigator",
       "RuknExporter",
     ],
