@@ -2,13 +2,13 @@ import { Product } from "@/types";
 
 export const products: Product[] = [
   {
-    id: "kh-element-navigator",
-    slug: "kh-element-navigator",
-    name: "KH Element Navigator",
+    id: "rukn-bim-smart-select",
+    slug: "rukn-bim-smart-select",
+    name: "RUKNBIM Smart Select",
     shortDescription:
       "Advanced element navigation and search tool for Autodesk Navisworks.",
     description:
-      "KH Element Navigator is a powerful Navisworks add-in that revolutionizes how you navigate and search elements within your BIM models. With advanced filtering, custom search queries, and intelligent element grouping, this tool dramatically speeds up model review and clash detection workflows.",
+      "RUKNBIM Smart Select is a powerful Navisworks add-in that revolutionizes how you navigate and search elements within your BIM models. With advanced filtering, custom search queries, and intelligent element grouping, this tool dramatically speeds up model review and clash detection workflows.",
     category: "navisworks",
     tier: "premium",
     price: "$149",
@@ -108,14 +108,14 @@ export const products: Product[] = [
     icon: "FileSpreadsheet",
   },
   {
-    id: "revit-id-selector",
-    slug: "revit-id-selector",
-    name: "Selection by Revit ID Tool",
+    id: "ruknbim-element-navigator",
+    slug: "ruknbim-element-navigator",
+    name: "RUKNBIM.ElementNavigator",
     shortDescription:
-      "Quickly select and highlight elements in Revit using Element IDs.",
+      "Quickly select and highlight elements in Navisworks using Element IDs.",
     description:
-      "A lightweight, free Revit add-in that lets you select and highlight elements by their Element ID. Perfect for debugging, clash resolution, and coordination workflows. Paste a list of IDs and instantly navigate to any element in your model.",
-    category: "revit",
+      "A lightweight, free Navisworks add-in that lets you select and highlight elements by their Element ID. Perfect for debugging, clash resolution, and coordination workflows. Paste a list of IDs and instantly navigate to any element in your model.",
+    category: "navisworks",
     tier: "free",
     price: "Free",
     version: "1.2.0",
@@ -128,7 +128,7 @@ export const products: Product[] = [
       "Works with linked models",
     ],
     systemRequirements: [
-      "Autodesk Revit 2022–2026",
+      "Autodesk Navisworks 2022–2026",
       "Windows 10/11 (64-bit)",
       ".NET Framework 4.8+",
     ],
@@ -148,13 +148,13 @@ export const products: Product[] = [
     icon: "MousePointerClick",
   },
   {
-    id: "bim-utilities-pack",
-    slug: "bim-utilities-pack",
-    name: "BIM Utilities Pack",
+    id: "rukn-exporter",
+    slug: "rukn-exporter",
+    name: "RuknExporter",
     shortDescription:
       "A collection of essential BIM productivity tools for Revit.",
     description:
-      "BIM Utilities Pack bundles essential productivity tools for everyday Revit workflows. Includes batch export, quick parameter editing, view management shortcuts, and family utilities — all in one convenient add-in.",
+      "RuknExporter bundles essential productivity tools for everyday Revit workflows. Includes batch export, quick parameter editing, view management shortcuts, and family utilities — all in one convenient add-in.",
     category: "revit",
     tier: "free",
     price: "Free",

@@ -31,7 +31,7 @@ export default function Navbar() {
         scrolled ? "glass shadow-[0_6px_30px_rgba(15,23,42,0.06)]" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-24 flex items-center justify-between">
         <a href="#top" className="flex items-center group">
           <Image
             src="/logo.svg"
@@ -39,7 +39,7 @@ export default function Navbar() {
             width={500}
             height={150}
             priority
-            className="h-14 w-auto transition-transform duration-300 group-hover:scale-105"
+            className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
           />
         </a>
 

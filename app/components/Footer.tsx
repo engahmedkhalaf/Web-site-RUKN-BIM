@@ -8,10 +8,10 @@ const COLUMNS = [
   {
     title: "Products",
     links: [
-      "KH Element Navigator",
+      "RUKNBIM Smart Select",
       "QIC 5D BOQ Manager",
-      "Selection by Revit ID",
-      "BIM Utilities Pack",
+      "RUKNBIM.ElementNavigator",
+      "RuknExporter",
     ],
   },
   {
